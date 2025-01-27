@@ -1,0 +1,52 @@
+.view-applicants-container {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.applicants-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.applicant-card {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.applicant-card h3 {
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.btn-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-link:hover {
+    background-color: #0056b3;
+}
+
+.loading-text {
+    text-align: center;
+    color: #555;
+}
+
+.no-applicants-text {
+    text-align: center;
+    color: #999;
+}
